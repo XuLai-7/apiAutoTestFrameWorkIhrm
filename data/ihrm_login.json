@@ -1,0 +1,76 @@
+[
+  {
+    "desc": "登录成功",
+    "req_data": {
+      "mobile": "13800000002",
+      "password": "123456"
+    },
+    "status_code": 200,
+    "code": 10000,
+    "msg": "操作",
+    "success": true
+  },
+  {
+    "desc": "手机号为空",
+    "req_data": {
+      "mobile": null,
+      "password": "123456"
+    },
+    "status_code": 200,
+    "code": 20001,
+    "msg": "用户名或密码错误",
+    "success": false
+  },
+  {
+    "desc": "密码错误",
+    "req_data": {
+      "mobile": "13800000002",
+      "password": "123456789"
+    },
+    "status_code": 200,
+    "code": 20001,
+    "msg": "用户名或密码错误",
+    "success": false
+  },
+  {
+    "desc": "多参",
+    "req_data": {
+      "mobile": "13800000002",
+      "password": "123456",
+      "abc": "123"
+    },
+    "status_code": 200,
+    "code": 10000,
+    "msg": "操作成功",
+    "success": true
+  },
+   {
+    "desc": "少参",
+    "req_data": {
+      "mobile": "13800000002"
+    },
+    "status_code": 200,
+    "code": 20001,
+    "msg": "用户名或密码错误",
+    "success": false
+  },
+ {
+    "desc": "错参",
+    "req_data": {
+      "abc": "13800000002",
+      "password": "123456"
+    },
+    "status_code": 200,
+    "code": 20001,
+    "msg": "用户名或密码错误",
+    "success": false
+  },
+  {
+    "desc": "无参",
+    "req_data": null,
+    "status_code": 200,
+    "code": 99999,
+    "msg": "系统繁忙",
+    "success": false
+  }
+]

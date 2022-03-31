@@ -1,0 +1,19 @@
+2022-03-30 20:15:10,352 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 20:15:10,422 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "GET /api/sys/user/1509141247858696192 HTTP/1.1" 200 None
+2022-03-30 20:15:10,422 INFO [test_emp_query.py(test01_query_emp:21)] - 查询员工成功: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1509141247858696192', 'mobile': '12340900654', 'username': 'cyj', 'enableState': 1, 'departmentId': '1066239913642561536', 'timeOfEntry': None, 'formOfEmployment': None, 'workNumber': '9704', 'departmentName': '人力资源部', 'roleIds': [], 'staffPhoto': None}}
+2022-03-30 20:21:29,143 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 20:21:29,207 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "GET /api/sys/user/1509141247858696192 HTTP/1.1" 200 None
+2022-03-30 20:21:59,375 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 20:21:59,436 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "GET /api/sys/user/1509141247858696192 HTTP/1.1" 200 None
+2022-03-30 20:39:50,241 INFO [db_util.py(uid_db:68)] - 影响的行数: 1
+2022-03-30 20:39:50,269 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 20:39:50,335 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "GET /api/sys/user/1231827498132 HTTP/1.1" 200 None
+2022-03-30 20:39:50,461 INFO [db_util.py(uid_db:68)] - 影响的行数: 1
+2022-03-30 20:40:19,610 INFO [db_util.py(uid_db:68)] - 影响的行数: 1
+2022-03-30 20:40:19,639 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 20:40:19,699 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "GET /api/sys/user/1231827498132 HTTP/1.1" 200 None
+2022-03-30 20:40:21,462 INFO [db_util.py(uid_db:68)] - 影响的行数: 1
+2022-03-30 20:42:59,725 INFO [db_util.py(uid_db:68)] - 影响的行数: 1
+2022-03-30 20:42:59,753 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 20:42:59,813 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "GET /api/sys/user/1231827498132 HTTP/1.1" 200 None
+2022-03-30 20:43:25,870 INFO [db_util.py(uid_db:68)] - 影响的行数: 1

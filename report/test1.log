@@ -1,0 +1,43 @@
+2022-03-29 20:47:10,781 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-29 20:47:10,877 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2022-03-29 20:47:16,506 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-29 20:47:16,566 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/user HTTP/1.1" 200 None
+2022-03-29 20:47:16,568 INFO [test_emp_add_params.py(test_add_emp:87)] - 必选参数
+2022-03-29 20:47:21,814 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-29 20:47:21,885 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/user HTTP/1.1" 200 None
+2022-03-29 20:47:21,886 INFO [test_emp_add_params.py(test_add_emp:87)] - 组合参数
+2022-03-29 20:47:26,856 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-29 20:47:26,921 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/user HTTP/1.1" 200 None
+2022-03-29 20:47:26,922 INFO [test_emp_add_params.py(test_add_emp:87)] - 全部参数
+2022-03-29 20:49:40,610 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-29 20:49:40,711 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2022-03-29 20:49:40,713 INFO [test_emp_add_params.py(setUpClass:39)] - 获取到的token: Bearer 230b5d8d-e1c1-4ee8-bbd4-796f117c2974
+2022-03-29 20:49:40,721 INFO [test_emp_add_params.py(setUp:49)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-29 20:49:41,120 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-29 20:49:41,180 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/user HTTP/1.1" 200 None
+2022-03-29 20:49:41,181 INFO [test_emp_add_params.py(test_add_emp:86)] - 必选参数 : {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'departmentId': '1066239913642561536', 'id': '1508788570838654976'}}
+2022-03-29 20:49:41,181 INFO [test_emp_add_params.py(tearDown:58)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-29 20:49:48,351 INFO [test_emp_add_params.py(setUp:49)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-29 20:49:58,367 INFO [test_emp_add_params.py(setUp:49)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-29 20:50:14,346 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-29 20:50:14,412 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/user HTTP/1.1" 200 None
+2022-03-29 20:50:14,413 INFO [test_emp_add_params.py(test_add_emp:86)] - 全部参数 : {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'departmentId': '1504873500798656512', 'id': '1508788710215376896'}}
+2022-03-29 20:50:14,413 INFO [test_emp_add_params.py(tearDown:58)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-29 20:50:40,385 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-29 20:50:40,514 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2022-03-29 20:50:40,515 INFO [test_emp_add_params.py(setUpClass:39)] - 获取到的token: Bearer 2e3ca902-258a-46e9-ae2c-581fe2f94691
+2022-03-29 20:50:40,521 INFO [test_emp_add_params.py(setUp:49)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-29 20:50:50,302 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-29 20:50:50,369 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/user HTTP/1.1" 200 None
+2022-03-29 20:50:50,371 INFO [test_emp_add_params.py(test_add_emp:86)] - 必选参数 : {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'departmentId': '1066239913642561536', 'id': '1508788861029965824'}}
+2022-03-29 20:50:50,371 INFO [test_emp_add_params.py(tearDown:58)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-29 20:50:55,344 INFO [test_emp_add_params.py(setUp:49)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-29 20:51:04,993 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-29 20:51:05,063 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/user HTTP/1.1" 200 None
+2022-03-29 20:51:05,064 INFO [test_emp_add_params.py(test_add_emp:86)] - 组合参数 : {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'departmentId': '1066239913642561536', 'id': '1508788922656874496'}}
+2022-03-29 20:51:05,064 INFO [test_emp_add_params.py(tearDown:58)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-29 20:51:21,842 INFO [test_emp_add_params.py(setUp:49)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-29 20:51:25,863 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-29 20:51:25,926 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/user HTTP/1.1" 200 None
+2022-03-29 20:51:25,927 INFO [test_emp_add_params.py(test_add_emp:86)] - 全部参数 : {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'departmentId': '1504873500798656512', 'id': '1508789010171027456'}}
+2022-03-29 20:51:25,927 INFO [test_emp_add_params.py(tearDown:58)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'

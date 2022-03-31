@@ -1,0 +1,44 @@
+[
+  {
+    "desc": "必选参数",
+    "json_data": {
+      "username": "xwh",
+      "mobile": 13900087897,
+      "workNumber": "9007"
+    },
+    "status_code": 200,
+    "code": 10000,
+    "msg": "操作",
+    "success": true
+  },
+  {
+    "desc": "组合参数",
+    "json_data": {
+      "username": "cyj2",
+      "mobile": 13900087897,
+      "workNumber": "9004",
+      "formOfEmployment": "2"
+    },
+    "status_code": 200,
+    "code": 10000,
+    "msg": "操作",
+    "success": true
+  },
+  {
+    "desc": "全部参数",
+    "json_data": {
+      "username": "wilson",
+      "mobile": 13900087897,
+      "timeOfEntry": "2022-03-28",
+      "formOfEmployment": 1,
+      "workNumber": "9763",
+      "departmentName": "开发部",
+      "departmentId": "1504873500798656512",
+      "correctionTime": "2022-03-30T16:00:00.000Z"
+    },
+    "status_code": 200,
+    "code": 10000,
+    "msg": "操作",
+    "success": true
+  }
+]

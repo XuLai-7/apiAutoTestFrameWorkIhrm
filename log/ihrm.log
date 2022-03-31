@@ -1,0 +1,40 @@
+2022-03-30 19:55:34,630 INFO [run_suite.py(<module>:24)] - 测试套件实例, 创建成功!
+2022-03-30 19:55:34,647 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 19:55:34,781 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2022-03-30 19:55:34,783 INFO [get_header.py(get_header:13)] - 获取到的token: Bearer caf6347a-de18-4cda-a525-51a4ba11152d
+2022-03-30 19:55:34,783 INFO [test_emp_add_params.py(setUp:41)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-30 19:55:35,749 INFO [db_util.py(uid_db:68)] - 影响的行数: 0
+2022-03-30 19:55:35,775 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 19:55:35,842 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/user HTTP/1.1" 200 None
+2022-03-30 19:55:35,843 INFO [test_emp_add_params.py(test_add_emp:79)] - 必选参数 : {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'departmentId': '1066239913642561536', 'id': '1509137348124860416'}}
+2022-03-30 19:55:35,843 INFO [test_emp_add_params.py(tearDown:50)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-30 19:55:38,986 INFO [db_util.py(uid_db:68)] - 影响的行数: 1
+2022-03-30 19:55:39,012 INFO [test_emp_add_params.py(setUp:41)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-30 19:55:39,630 INFO [db_util.py(uid_db:68)] - 影响的行数: 0
+2022-03-30 19:55:39,659 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 19:55:39,725 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/user HTTP/1.1" 200 None
+2022-03-30 19:55:39,726 INFO [test_emp_add_params.py(test_add_emp:79)] - 组合参数 : {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'departmentId': '1066239913642561536', 'id': '1509137364415537152'}}
+2022-03-30 19:55:39,726 INFO [test_emp_add_params.py(tearDown:50)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-30 19:55:41,573 INFO [db_util.py(uid_db:68)] - 影响的行数: 1
+2022-03-30 19:55:42,736 INFO [test_emp_add_params.py(setUp:41)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-30 19:55:42,873 INFO [db_util.py(uid_db:68)] - 影响的行数: 0
+2022-03-30 19:55:42,897 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 19:55:42,961 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/user HTTP/1.1" 200 None
+2022-03-30 19:55:42,961 INFO [test_emp_add_params.py(test_add_emp:79)] - 全部参数 : {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'departmentId': '1504873500798656512', 'id': '1509137377988304896'}}
+2022-03-30 19:55:42,961 INFO [test_emp_add_params.py(tearDown:50)] - delete sql 语句: delete from bs_user where `mobile` ='13900087897'
+2022-03-30 19:55:44,338 INFO [db_util.py(uid_db:68)] - 影响的行数: 1
+2022-03-30 19:55:44,365 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 19:55:44,424 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2022-03-30 19:55:44,427 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 19:55:44,483 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2022-03-30 19:55:44,485 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 19:55:44,540 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2022-03-30 19:55:44,542 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 19:55:44,608 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2022-03-30 19:55:44,612 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 19:55:44,670 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2022-03-30 19:55:44,673 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 19:55:44,730 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2022-03-30 19:55:44,732 DEBUG [connectionpool.py(_new_conn:208)] - Starting new HTTP connection (1): ihrm-test.itheima.net
+2022-03-30 19:55:44,786 DEBUG [connectionpool.py(_make_request:396)] - http://ihrm-test.itheima.net:80 "POST /api/sys/login HTTP/1.1" 200 None
+2022-03-30 19:55:44,789 INFO [run_suite.py(<module>:30)] - 测试报告生成成功!
