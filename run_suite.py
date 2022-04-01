@@ -21,7 +21,7 @@ init_log_config(BASE_DIR+"/log/ihrm.log")
 import unittest
 
 suite = unittest.TestSuite()
-logging.info("测试套件实例, 创建成功!")
+logging.info("测试创建套件实例, 创建成功!")
 suite.addTest(unittest.makeSuite(TestEmpAddParams))
 suite.addTest(unittest.makeSuite(TestIhrmLoginParams))
 
