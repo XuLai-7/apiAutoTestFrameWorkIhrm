@@ -27,5 +27,5 @@ suite.addTest(unittest.makeSuite(TestIhrmLoginParams))
 
 runner = HTMLTestReport("./report/ihrm.html", description="人力资源管理系统, 接口自动化测试 登录,添加员工模块", title="接口自动化测试")
 runner.run(suite)
-logging.info("测试报告生成成功!")
+logging.info("测试报告生成成功!!!")
 
